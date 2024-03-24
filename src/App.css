@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-container {
+  width: 607px;
+  height: 650px;
+  margin: auto;
+  margin-top: 75px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: beige;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.search-field {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 60px;
+}
+.search-field input {
+  display: flex;
+  width: 380px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding-left: 35px;
+  color: #626262;
+  background: #ebfffc;
+  font-size: 20px;
+  font-weight: 400;
+}
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #626262;
+  background: #ebfffc;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.gradient-custom {
+  background-color: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 236, 210, 1)
+  );
+  border-radius: 25px;
+}
+.card-data {
+  margin-top: 50px;
+  color: rgb(48, 45, 45);
+  display: flex;
+  justify-content: center;
+}
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.data {
+  font-size: 34px;
+  font-weight: 400;
+}
+.text {
+  font-size: 20px;
+  font-weight: 400;
+}
+.icon {
+  margin-top: 10px;
+}
